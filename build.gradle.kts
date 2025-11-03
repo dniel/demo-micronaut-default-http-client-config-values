@@ -2,7 +2,7 @@ import io.micronaut.gradle.MicronautRuntime
 
 plugins {
     kotlin("jvm") version "1.9.25"
-    kotlin("kapt") version "1.9.23"
+    kotlin("kapt") version "1.9.25"
     id("io.micronaut.application") version "4.5.4"
 }
 
