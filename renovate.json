@@ -1,11 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
-  "requiredStatusChecks": null,
+  "extends": [
+    "config:best-practices"
+  ],
+  "ignoreTests": true,
   "packageRules": [
     {
-      "matchManagers": ["gradle", "dockerfile"],
-      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchManagers": [
+        "gradle",
+        "dockerfile"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
       "automerge": true,
       "automergeType": "pr"
     }
